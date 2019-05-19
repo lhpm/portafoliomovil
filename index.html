@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Portafolio de Servicio Versión Mobil - portafolio luis patiño machado</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+
+    <style>
+
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/jquery.min-2.1.4.js"></script>
+    <script src="js/jquery-ui.min-1.11.4.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="vendor/waves/waves.min.js"></script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="js/nativedroid2.js"></script>
+    <script src="js/nd2settings.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="vendor/waves/waves.min.css" />
+    <link rel="stylesheet" href="vendor/wow/animate.css" />
+    <link rel="stylesheet" href="css/nativedroid2.css" />
+    </head>
+    <body onload="initialize()">
+    <!-- INICIO PRINCIPAL -->
+
+<div data-role="page" id="principal" data-theme="a" style="background-color: #FFFFFF;" data-dom-cache="false">
+
+  <div data-role="panel" id="panel1" data-display="overlay" data-position-fixed="true" data-theme="a" style="color: #1D86DF;background-color: #000000;text-align:center;"> 
+<div class='nd2-sidepanel-profile wow fadeInDown'>
+          <img class='profile-background' src="video/trabajo4.jpg" />
+          <div class="row">
+            <div class='col-xs-4 center-xs'>
+              <div class='box'>
+                <img class="profile-thumbnail" src="img/logo_empresa.jpg" />
+              </div>
+            </div>
+            <div class='col-xs-8'>
+              <div class='box profile-text'>
+                <strong>Portafolio<br />Digital</strong>
+                <span class='subline'></span>
+              </div>
+            </div>
+          </div>
+        </div>
+    <ul data-role="listview" data-icon="false" data-theme="a">
+    <center>
+       <li><a href="#portafolio" class="ui-btn ui-btn-icon-block" data-transition="none" style="color: #5B5B5B;"><i class='zmdi zmdi-search zmd-3x'></i>PORTAFOLIO</a></li>
+       <li><a href="#curriculum" class="ui-btn ui-btn-icon-block" data-transition="none" style="color: #5B5B5B;"><i class='zmdi zmdi-calendar zmd-3x'></i>CURRICULUM</a></li>
+       <li><a href="#trabajos" class="ui-btn ui-btn-icon-block" data-transition="none" style="color: #5B5B5B;"><i class='zmdi zmdi-view-agenda zmd-3x'></i>TRABAJOS</a></li>
+       <li><a href="#contacto" class="ui-btn ui-btn-icon-block" data-transition="none" style="color: #5B5B5B;"><i class='zmdi zmdi-flag zmd-3x'></i>CONTACTO</a></li>
+       </center>
+    </ul>
+  </div>
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Luis P Machado</h1>
+    <a href="#panel1" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-menu" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+
+<a href="#directorio" class="ui-btn ui-btn-icon-block" data-transition="none">
+<div class="nd2-card"><!-- INICIO PRINCIPAL -->
+
+  <div class="card-media">
+    <img src="video/portafolio.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(40,40,120,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">PORTAFOLIO</h3>
+        <h5 class="card-subtitle">Diseño y Desarrollo <br> Aplicaciones Web y Android</h5>
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div></a><!-- FIN PRINCIPAL -->
+    
+  </div><!-- FIN CONTENT -->
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="true">
+    <a href="tel:3156980335">Llamar</a>
+  </div> 
+
+</div><!-- FIN PRINCIPAL -->
+
+<!-- INICIO PORTAFOLIO -->
+<div data-role="page" id="portafolio" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Directorio</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a href="#directoriolistview" class="ui-btn ui-btn-right wow fadeIn" data-transition="none" data-wow-delay='0.1s'><i class="zmdi zmdi-format-list-bulleted zmd-fw"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+
+<div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/portafolio.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(10,150,210,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">PORTAFOLIO</h3>
+        <h5 class="card-subtitle">Desarrollo Aplicaciones Web con Laravel 5.5 y 5.6<br></h5>
+        <h5 class="card-subtitle">Desarrollo PWA<br></h5>
+        <h5 class="card-subtitle">Desarrollo Aplicaciones Web con VueJS y Vuetify<br></h5>
+        <h5 class="card-subtitle">Migraciones de Bases de datos, Backup y de Hosting a Hosting<br></h5>
+        <h5 class="card-subtitle">Instalación, Configuración de Hardware y Software Sistemas POS para Facturación<br></h5>
+        <h5 class="card-subtitle">Desarrollo Web con Wordpress, Joomla, Prestahop o Moodle<br></h5>
+        <h5 class="card-subtitle">Notificaciones en tiempo real Push<br></h5>
+        <h5 class="card-subtitle">Aplicación e implementación de técnicas SEO para su Sitio Web<br></h5>
+        <h5 class="card-subtitle">Desarrollo con PHP Y MySQL<br></h5>
+        <h5 class="card-subtitle">Desarrollo Web HTML5 CSS3 JQUERY <br>BOOTSTRAP JQUERY MOBILE</h5>
+        <h5 class="card-subtitle">Diseño y Desarrollo Aplicaciones <br>Web y Android</h5>
+        <h5 class="card-subtitle">Desarrollo Web HTML5 CSS3 JQUERY <br>BOOTSTRAP JQUERY MOBILE</h5>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  </div><!-- FIN DIV CONTENT -->
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="true">
+    <a href="tel:3156980335">Llamar</a>
+  </div> 
+
+</div><!-- FIN DIRECTORIO -->
+
+
+<!-- INICIO MENU DIA -->
+<div data-role="page" id="curriculum" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Curriculum</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <ul data-role="listview" data-icon="true" id="menudia" data-autodividers="true" data-filter="true" data-filter-placeholder="Buscar Area" data-inset="true" data-theme="b">
+     <li>Secretaría Educación Mexico – Diplomado Técnico en Big Data. 2018.</li>
+     <li>Cisco Networking Academy – Cybersecurity Essential. 2018.</li>
+     <li>Instituto Economía Internacional – Introducción Desarrollo Web II 2018.</li>
+     <li>Fundación Carlos Slim – Administrador de Base de datos. 2018.</li>
+     <li>Fundación Carlos Slim – Programador Orientado a Objetos. 2018.</li>
+     <li>Fundación Carlos Slim –Administrador de Servidores. 2018.</li>
+     <li>Fundación Carlos Slim – Analista de datos. 2018.</li>
+     <li>Fundación Carlos Slim – Técnico en redes de datos. 2018.</li>
+     <li>Fundación Carlos Slim – Programador Orientado a Objetos. 2018.</li>
+     <li>SENA - Desarrollo Web con PHP. 2017</li>
+     <li>Interactive Advertising Bureau <br> Curso Básico Marketing Digital. 2017.</li>
+     <li>Escuela de Organización Industrial <br> E-commerce 2017.</li>
+     <li>Instituto Economía Internacional <br> Introducción Desarrollo Web 2017.</li>
+     <li>Universidad Complutense <br> Desarrollo de Apps Móviles. 2017.</li>
+     <li>Escuela de Organización Industrial <br> Analítica Web. 2017.</li>
+     <li>Escuela de Organización Industrial <br> Cloud Computing. 2017.</li>
+     <li>Excel 2007. Entidad: SENA. 2012.</li>
+     <li>Flash y Animación 2D. Entidad: SENA. 2009</li>
+     <li>Autocad 2D. Entidad: SENA. 2008.</li>
+     <li>Programación de Páginas Web HTML y<br> Javascript . Entidad: SENA. 2008</li>
+     <li>Diseño Web con Dreamweaver. Entidad: SENA. 2008</li>
+     <li>Ensamble y Mantenimiento de Computadores.<br> Entidad: SENA. 2008</li>
+     <li>Tecnólogo en Informática (1999). <br>Entidad: IUFRONT.</li>
+     <li>Bachiller Académico (1994). <br>Entidad: Colegio Grancolombiano.</li>
+   </ul>
+  </div><!-- FIN DIV CONTENT -->
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="true">
+    <a href="tel:3156980335">Llamar</a>
+  </div> 
+
+</div><!-- FIN CURRICULUM -->
+
+
+<!-- INICIO TRABAJOS -->
+<div data-role="page" id="trabajos" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Trabajos</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+ 
+ <div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/trabajo1.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(90,70,105,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">Diseño Web</h3>
+        <h5 class="card-subtitle">www.syslabips.com.co</h5>
+        <p>
+        <a href="www.syslabips.com.co" target="_blank" style="color:#FFFFFF">www.syslabips.com.co</a>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- FIN PRINCIPAL -->
+
+ <div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/trabajo2.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(10,150,210,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">Diseño Web</h3>
+        <h5 class="card-subtitle">www.impactochinacota.com</h5>
+        <p>
+        <a href="www.impactochinacota.com" target="_blank" style="color:#FFFFFF">www.impactochinacota.com</a>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- FIN PRINCIPAL -->
+
+ <div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/trabajo3.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(90,70,105,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">Diseño Web</h3>
+        <h5 class="card-subtitle">www.milnerfoundations.org</h5>
+        <p>
+        <a href="www.milnerfoundations.org" target="_blank" style="color:#FFFFFF">www.milnerfoundations.org</a>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- FIN PRINCIPAL -->
+
+<div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/trabajo4.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(10,150,210,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">App Movil</h3>
+        <h5 class="card-subtitle">Norteplay</h5>
+        <p>
+        <a href="https://play.google.com/store/apps/details?id=com.norteplay&hl=es" target="_blank" style="color:#FFFFFF">Norteplay en PLAYSTORE</a>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- FIN PRINCIPAL -->
+
+<div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/trabajo4.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(90,70,105,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">App Movil</h3>
+        <h5 class="card-subtitle">Destino Chinácota</h5>
+        <p>
+        <a href="https://play.google.com/store/apps/details?id=com.destinochinacota&hl=es" target="_blank" style="color:#FFFFFF">Destino C en PLAYSTORE</a>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- FIN PRINCIPAL -->
+
+<div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/trabajo4.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(10,150,210,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">App Movil</h3>
+        <h5 class="card-subtitle">Parróquia Toledo</h5>
+        <p>
+        <a href="https://play.google.com/store/apps/details?id=com.arquipamplona.toledo&hl=es" target="_blank" style="color:#FFFFFF">Parróquia Toledo en PLAYSTORE</a>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- FIN PRINCIPAL -->
+
+<div class="nd2-card"><!-- INICIO PRINCIPAL -->
+  <div class="card-media">
+    <img src="video/trabajo4.jpg" style="min-height:100%;height:300px;">
+
+    <div class='card-media-overlay with-background' style="background: rgba(90,70,105,0.7);top:0%;margin-bottom:45%;">
+
+      <div class="card-title has-supporting-text">
+        <h3 class="card-primary-title">App Movil</h3>
+        <h5 class="card-subtitle">Parróquia Toledo AR</h5>
+        <p>
+        <a href="https://play.google.com/store/apps/details?id=com.ar.toledo" target="_blank" style="color:#FFFFFF">Parróquia Toledo AR en PLAYSTORE</a>
+      
+      </div>
+
+      <div class="card-action">
+        <div class="row between-xs">
+          <div class="col-xs-12">
+            <!--<div class="box">
+              <a href="#" class="ui-btn ui-btn-inline">Action 1</a>
+              <a href="#" class="ui-btn ui-btn-inline">Action 2</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- FIN PRINCIPAL -->
+
+  </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3156980335">Llamar</a>
+  </div> 
+
+</div><!-- FIN TRABAJOS -->
+
+
+<!-- INICIO JSON CONTENIDO EVENTOS -->
+<div data-role="page" id="paginaeventos" data-theme="a" data-dom-cache="false">
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Eventos</h1>
+    <a href="#eventos" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div> 
+    <div data-role="main" class="ui-content">
+
+            <div class="pagEventos" id="Eventos"></div>
+           
+    </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3156980335">Llamar</a>
+  </div> 
+</div>
+<!-- FIN JSON CONTENIDO EVENTOS -->
+
+<!-- INICIO EVENTOS LISTVIEW-->
+<div data-role="page" id="eventoslistview" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Eventos Lista</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.2s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a href="#eventos" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='0.2s'><i class="zmdi zmdi-grid zmd-fw" data-transition="none"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <ul data-role="listview" data-theme="a" id="eventolistview" data-theme="b" data-filter-theme="b"></ul>
+  </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+
+</div><!-- FIN EVENTOS LISTVIEW-->
+
+<!-- INICIO JSON CONTENIDO EVENTOS LISTVIEW-->
+<div data-role="page" id="paginaeventoslistview" data-theme="a" data-dom-cache="false">
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Eventos</h1>
+    <a href="#eventoslistview" data-transition="none" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div> 
+    <div data-role="main" class="ui-content">
+
+            <div id="Eventoslistview"></div>
+           
+    </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+</div>
+<!-- FIN JSON CONTENIDO EVENTOS LISTVIEW-->
+
+<!-- INICIO JSON CONTENIDO DIRECTORIO LISTVIEW-->
+<div data-role="page" id="directoriolistview" data-theme="a" data-dom-cache="false">
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Directorio lista</h1>
+    <a href="#principal" data-transition="none" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a href="#directorio" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='0.2s'><i class="zmdi zmdi-grid zmd-fw" data-transition="none"></i></a>
+  </div> 
+    <div data-role="main" class="ui-content">
+
+            <ul data-role="listview" data-theme="a" id="listalistview" data-theme="b" data-filter-theme="b"></ul>
+           
+    </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+</div>
+<!-- FIN JSON CONTENIDO DIRECTORIO LISTVIEW-->
+
+
+<!-- INICIO CONTACTO -->
+<div data-role="page" id="contacto" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Contacto</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content" style="text-align:center;">
+
+<p style="text-decoration:bold;">LUIS H PATIÑO MACHADO</p>
+<p>Correo: lhpm16@hotmail.com</p>
+<p>Celular: 3156980335</p>
+  </div><!-- FIN DIV CONTENT -->
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="true">
+    <a href="tel:3156980335">Llamar</a>
+  </div> 
+
+</div><!-- FIN CONTACTO -->
+
+<!-- DETALLES PROMOCIONES -->
+<div data-role="page" id="detallespromo" data-theme="a" data-dom-cache="false">
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Detalles</h1>
+    <a href="#promociones" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div> 
+    <div data-role="main" class="ui-content">
+
+            <div class="pagDetalles" id="Promocion"></div>
+           
+    </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+</div>
+<!-- FIN DETALLES PROMOCIONES -->
+
+
+<!-- INICIO RANKING -->
+<div data-role="page" id="ranking" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Ranking</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <ul data-role="listview" data-icon="false" id="rankinglistview" data-autodividers="true" data-filter="false" data-filter-placeholder="Buscar Restaurant" data-inset="true" data-theme="b"></ul>
+  </div><!-- FIN DIV CONTENT -->
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="true">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+
+</div><!-- FIN RANKING -->
+
+
+<!-- INICIO JSON CONTENIDO FAVORITOS LISTVIEW-->
+<div data-role="page" id="favoritos" data-theme="a" data-dom-cache="false">
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Favoritos</h1>
+    <a href="#principal" data-transition="none" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+    <ul data-role="listview" data-theme="a" id="favoritolistview" data-theme="b" data-filter-theme="b"></ul>
+  </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+</div>
+<!-- FIN JSON CONTENIDO FAVORITOS LISTVIEW-->
+
+
+<!-- INICIO FAVORITOS LISTA GRANDE -->
+<div data-role="page" id="favoritos2" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Favoritos</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.1s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a href="#favoritos" class="ui-btn ui-btn-right wow fadeIn" data-transition="none" data-wow-delay='0.2s'><i class="zmdi zmdi-format-list-bulleted zmd-fw"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <ul data-role="listview" data-icon="false" id="favoritogrande" data-autodividers="true" data-filter="true" data-filter-placeholder="Buscar Favoritos" data-inset="true" data-theme="b"></ul>
+  </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+
+</div><!-- FIN FAVORITOS LISTA GRANDE -->
+
+
+
+<!-- INICIO Configuración -->
+<div data-role="page" id="configuracion" data-theme="a" style="background-color: #FFFFFF;">
+
+  <div data-role="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false" style="display:block;position:relative;">
+    <h1 style="text-transform: none;">Configuración</h1>
+    <a href="#principal" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.2s'><i class="zmdi zmdi-arrow-back zmd-fw" data-transition="none"></i></a>
+    <a onclick="shareToOptions()" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-share"></i></a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <p>Configuración</p>
+  </div>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <a href="tel:3120000000">Llamar</a>
+  </div> 
+
+</div><!-- FIN Configuración -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
